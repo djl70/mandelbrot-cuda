@@ -1,5 +1,6 @@
-# mandelbrot-cuda
-Mandelbrot Escape Time Algorithm in CUDA
+# Mandelbrot Escape Time Algorithm in CUDA
+
+![Example Mandelbrot visualization](https://github.com/djl70/mandelbrot-cuda/blob/fd655b0c1989a90f944048dc4c1be74e217a3cad/mandelbrot068.png)
 
 ## Requirements
 - CUDA
@@ -27,3 +28,4 @@ convert -delay 10 mandelbrot*ppm mandelbrot.gif
 - [Wikipedia](https://en.wikipedia.org/wiki/Mandelbrot_set)
 - [Mandelbrot Viewer](http://math.hws.edu/eck/js/mandelbrot/MB.html)
 - [Wolfram](http://mathworld.wolfram.com/MandelbrotSet.html)
+- Dr. Burtscher for making CUDA seem easy
