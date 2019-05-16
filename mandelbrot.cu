@@ -23,13 +23,13 @@ __device__ double autoPow(double x, double y)
 
 template<typename T>
 __global__ void mandelbrotKernel(const int depthStart,
-								 const int depthEnd,
-								 const T zoomFactor,
-								 const int width,
-								 const int height,
-								 unsigned* const intensities)
+				const int depthEnd,
+				const T zoomFactor,
+				const int width,
+				const int height,
+				unsigned* const intensities)
 {
-    // Calculate the global thread index and exit if there is no work to do
+	// Calculate the global thread index and exit if there is no work to do
 	const int idx = blockIdx.x * blockDim.x + threadIdx.x;
 	const int pz = depthStart + idx / (height * width);
 	const int py = (idx / width) % height;
