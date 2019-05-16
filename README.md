@@ -24,8 +24,9 @@ convert -delay 10 mandelbrot*ppm mandelbrot.gif
 ```
 
 ## Acknowledgments
-- [This great source](http://warp.povusers.org/Mandelbrot/)
+- [This great resource](http://warp.povusers.org/Mandelbrot/)
+- [This list of coordinates](http://www.cuug.ab.ca/dewara/mandelbrot/Mandelbrowser.html)
 - [Wikipedia](https://en.wikipedia.org/wiki/Mandelbrot_set)
 - [Mandelbrot Viewer](http://math.hws.edu/eck/js/mandelbrot/MB.html)
 - [Wolfram](http://mathworld.wolfram.com/MandelbrotSet.html)
-- Dr. Burtscher for making CUDA seem easy
+- Dr. Burtscher for giving me a working undertanding of CUDA
