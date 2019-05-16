@@ -29,4 +29,4 @@ convert -delay 10 mandelbrot*ppm mandelbrot.gif
 - [Wikipedia](https://en.wikipedia.org/wiki/Mandelbrot_set)
 - [Mandelbrot Viewer](http://math.hws.edu/eck/js/mandelbrot/MB.html)
 - [Wolfram](http://mathworld.wolfram.com/MandelbrotSet.html)
-- Dr. Burtscher for giving me a working undertanding of CUDA
+- Dr. Burtscher for giving me a working understanding of CUDA
